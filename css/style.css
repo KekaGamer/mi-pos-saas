@@ -1,0 +1,25 @@
+/* public/css/style.css */
+body { font-family: sans-serif; background-color: #f4f4f9; color: #333; margin: 0; padding: 20px; }
+header, main { max-width: 800px; margin: 0 auto; background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+th { background-color: #5b6ee1; color: white; }
+tr:nth-child(even) { background-color: #f2f2f2; }
+
+/* Estilos para el botón y el formulario */
+.boton-agregar {
+    display: inline-block;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.formulario { display: flex; flex-direction: column; gap: 15px; }
+.campo-formulario { display: flex; flex-direction: column; }
+.campo-formulario label { margin-bottom: 5px; font-weight: bold; }
+.campo-formulario input { padding: 10px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; }
+.boton-guardar { background-color: #5b6ee1; /* Azul */ color: white; padding: 12px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold; }
+.boton-guardar:hover { background-color: #4a5dcf; }
